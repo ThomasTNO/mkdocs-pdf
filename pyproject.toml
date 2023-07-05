@@ -1,0 +1,38 @@
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mkdocs-pdf"
+description = "MkDocs plugin for embedding PDFs in a Markdown way"
+readme = "README.md"
+authors = [{name = "Thomas Rooijakkers", email = "thomas.rooijakkers@tno.nl"}]
+maintainers = [{name = "Thomas Rooijakkers", email = "thomas.rooijakkers@tno.nl"}]
+keywords = [
+    "mkdocs",
+    "pdf",
+    "embed",
+]
+license = {text = "MIT"}
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Information Technology",
+]
+urls = {Homepage = "https://github.com/ThomasTNO/mkdocs-pdf", Source = "https://github.com/ThomasTNO/mkdocs-pdf"}
+dynamic = ["version"]
+requires-python = ">=3.7"
+dependencies = [
+    "lxml"
+]
+
+[tool.setuptools]
+platforms = ["any"]
+
+[tool.setuptools.dynamic]
+version = {attr = "mkdocs_pdf.__version__"}
+
+[project.entry-points."mkdocs.plugins"]
+"mkdocs-pdf"= "mkdocs_pdf.plugin:Plugin"
