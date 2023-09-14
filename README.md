@@ -26,11 +26,11 @@ plugins:
 To embed a PDF file simple use the following syntax.
 
 ```markdown
-![Alt text](<path to pdf>){ type=pdf/application }
+![Alt text](<path to pdf>){ type=application/pdf }
 ```
 
 Optionally, you can specify style constraints, e.g.
 
 ```markdown
-![Alt text](<path to pdf>){ type=pdf/application style="min-height:25vh;width:100%" }
+![Alt text](<path to pdf>){ type=application/pdf style="min-height:25vh;width:100%" }
 ```
