@@ -48,4 +48,4 @@ Here the confirmed working options:
 |`toolbar=0`|Hides the top toolbar.|
 |`scrollbar=0`|Hide the right side scrollbar|
 
-More options you can find in this document provided by Adobe: [Link](https://pdfobject.com/pdf/pdf_open_parameters_acro8.pdf#page=5)
+For more options, see this document provided by Adobe: [Link](https://pdfobject.com/pdf/pdf_open_parameters_acro8.pdf#page=5)
