@@ -34,3 +34,16 @@ Optionally, you can specify style constraints, e.g.
 ```markdown
 ![Alt text](<path to pdf>){ type=application/pdf style="min-height:25vh;width:100%" }
 ```
+
+You can also add options to the PDF file, e.g.
+
+```markdown
+![Alt text](<path to pdf>#page=9&navpanes=0){ type=application/pdf }
+```
+Here the confirmed working options:
+|||
+|---|---|
+|`page=N`|Jump to Page N.|
+|`navpanes=0`|Hides the leftside navigation.|
+|`toolbar=0`|Hides the top toolbar.|
+|`scrollbar=0`|Hide the right side scrollbar|
