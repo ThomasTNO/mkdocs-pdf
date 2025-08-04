@@ -41,9 +41,11 @@ You can also add options to the PDF file, e.g.
 ![Alt text](<path to pdf>#page=9&navpanes=0){ type=application/pdf }
 ```
 Here the confirmed working options:
-|||
+| | |
 |---|---|
 |`page=N`|Jump to Page N.|
 |`navpanes=0`|Hides the leftside navigation.|
 |`toolbar=0`|Hides the top toolbar.|
 |`scrollbar=0`|Hide the right side scrollbar|
+
+For more options, see this document provided by Adobe: [Link](https://pdfobject.com/pdf/pdf_open_parameters_acro8.pdf#page=5)
